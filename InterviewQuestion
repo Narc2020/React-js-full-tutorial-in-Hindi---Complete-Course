@@ -1,0 +1,18 @@
+//State in react js
+/*
+1.what is state in react?
+=> state are hooks use to show value if value is changes.
+
+2.Use of State?
+=>use to show value if value is changes.
+
+3.Define State.
+=>State is used to change the value of the state object.
+
+4.How state works?
+=> when state is changed it rerender the app and show the 
+   updated value on UI.
+
+5.
+
+*/
