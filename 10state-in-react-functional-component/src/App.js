@@ -8,7 +8,6 @@ function App() {
   }
   return (
     <div className="App">
-      hh
       <h1>{vari}</h1>
       <button onClick={()=>update()}>Update</button>
     </div>
