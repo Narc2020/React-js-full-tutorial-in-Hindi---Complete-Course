@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import {useState} from 'react';
 import './App.css';
 
 function App() {
+  const [vari, setvari] = useState("Sachin");
+  function update(){
+    setvari("Raj")
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      hh
+      <h1>{vari}</h1>
+      <button onClick={()=>update()}>Update</button>
     </div>
   );
 }
