@@ -1,23 +1,23 @@
-import React,{Component} from 'react'
-import './App.css';
-
-export default class App extends Component {
-
+import React,{Component} from "react";
+import "./App.css"
+export default class App extends Component{
   constructor(){
-    super();
-      this.state={
-        data:"Sachin"
-      }
+    super()
+    this.state={
+      data:"Sachin"
+    }
   }
-  apple(){
-    this.setState({data:"Vibha"})
+
+   update() {
+    this.setState({data:"No One"})
   }
-   render(){
-     return(
-       <div className='App'>
-         <h1>{this.state.data}</h1>
-         <button onClick={()=>this.apple()}>Update</button>
-       </div>
-     );
-   }
+  render(){
+    return(
+      <div className="App">
+        <h1>{this.state.data}</h1>
+        <button onClick={this.update}>update</button>
+      </div>
+         
+    );
+  }
 }
