@@ -1,23 +1,22 @@
 import React,{Component} from "react";
 import "./App.css"
+
 export default class App extends Component{
   constructor(){
-    super()
-    this.state={
-      data:"Sachin"
-    }
+      super()
+       this.state={
+         data:"sachin"
+       }
   }
-
-   update() {
-    this.setState({data:"No One"})
-  }
+   Update(){
+      this.setState({data:"Vibha"})
+   }
   render(){
     return(
       <div className="App">
-        <h1>{this.state.data}</h1>
-        <button onClick={this.update}>update</button>
+      <h1>{this.state.data}</h1>
+      <button onClick={()=>this.Update()}>update</button>
       </div>
-         
-    );
+    )
   }
 }
