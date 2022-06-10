@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+
+.innermain{
+  display: inline-flex;
+  width: 25%;
+}
+.innermain img:hover{
+  opacity: 0.6;
+  transition: 0.3s;
+}
